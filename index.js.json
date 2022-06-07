@@ -1,32 +1,32 @@
 {
-	"pid": 9994,
-	"date": "2022-06-02T10:55:14.641Z",
+	"pid": 8236,
+	"date": "2022-06-07T08:37:53.381Z",
 	"port": 8000,
 	"ip": "0.0.0.0",
 	"stats": [
 		{
 			"id": null,
 			"version": {
-				"node": "v14.16.1",
+				"node": "v16.15.1",
 				"total": "4",
 				"build": 4062,
 				"app": 14
 			},
-			"pid": 9994,
+			"pid": 8236,
 			"thread": "",
 			"mode": "debug",
-			"overload": 2,
-			"date": "2022-06-03T08:21:18.095Z",
+			"overload": 0,
+			"date": "2022-06-07T14:31:06.834Z",
 			"textdb": {
-				"size": 0.039,
+				"size": 0.168,
 				"pendingwrite": 0,
 				"pendingread": 0,
 				"duration": 0,
-				"documents": 47,
+				"documents": 32,
 				"reading": 0,
 				"writing": 0
 			},
-			"memory": 15.33,
+			"memory": 15.98,
 			"rm": 0,
 			"fm": 0,
 			"wm": 0,
@@ -40,16 +40,17 @@
 			"cm": 0,
 			"dbrm": 0,
 			"dbwm": 0,
-			"usage": 0,
-			"requests": 301,
+			"usage": 2,
+			"requests": 518,
 			"pending": 0,
 			"external": 0,
-			"errors": 0,
+			"errors": 1,
 			"timeouts": 0,
 			"online": 1,
-			"uptime": 715,
-			"download": 0.021,
-			"upload": 0.108
+			"uptime": 324,
+			"download": 0.2,
+			"upload": 0.197,
+			"lasterror": "2022-06-07T13:04:17.871Z admin - Error: View \"cmsundefined\" not found.\n    at ControllerProto.$viewrender (C:\\Users\\dell\\.vscode\\cms_total\\cms-total\\node_modules\\total4\\index.js:15093:9)\n    at ControllerProto.view (C:\\Users\\dell\\.vscode\\cms_total\\cms-total\\node_modules\\total4\\index.js:15058:14)\n    at Controller.preview (C:\\Users\\dell\\.vscode\\cms_total\\cms-total\\plugins\\pages\\index.js:79:7)\n    at IncomingMessage.PROTO.$total_execute2 (C:\\Users\\dell\\.vscode\\cms_total\\cms-total\\node_modules\\total4\\index.js:17107:31)\n    at IncomingMessage.PROTO.$total_execute (C:\\Users\\dell\\.vscode\\cms_total\\cms-total\\node_modules\\total4\\index.js:17072:9)\n    at IncomingMessage.PROTO.$total_prepare (C:\\Users\\dell\\.vscode\\cms_total\\cms-total\\node_modules\\total4\\index.js:17395:9)\n    at IncomingMessage.PROTO.$total_end2 (C:\\Users\\dell\\.vscode\\cms_total\\cms-total\\node_modules\\total4\\index.js:17311:8)\n    at IncomingMessage.emit (node:events:539:35)\n    at endReadableNT (node:internal/streams/readable:1345:12)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)"
 		}
 	]
 }
